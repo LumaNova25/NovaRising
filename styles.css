@@ -1,0 +1,66 @@
+body {
+    font-family: "Space Grotesk", sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #d8bbaa;
+    display: flex; /*nav links gaan er nu naast staan. Zegt de children op lijn van parent (h1) te zetten*/
+    justify-content: space-between; /*tekst gaat nu rechts staan. Geeft aan om de ruimte tussen parent (h1) en direct children (nav a links) te zetten*/
+    align-items: center; /*de header, waar h1 en nav links in staan, waar dus alles in staat, moet gecenterd worden*/
+    padding: 10px 30px;
+}
+
+header h1 {
+    display: inline-block;
+    /* margin-left: 20px; */
+}
+
+.links ul {
+    display: flex;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover {
+    color: #5c5855;
+}
+
+.links li { /*target: li(stitems) inside class of .links*/
+    margin: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.about {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.profilephoto {
+    width: 500px;
+}
+
+.profilephoto img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
